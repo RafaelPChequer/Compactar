@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comentários de Serviço</title>
+    <link href="feedback.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+    <body>
+        <div class="container">
+            <h1>Avalie o serviço do trabalhador: </h1>
+            <form  action="anexar-imagem.html" method="post">
+                <div class="question">
+                    <p>1. Quão satisfeito você está com o serviço?</p>
+                    <ul>
+                        <li> <button class="answer-button" type="button" name="resposta" value="ms" data-question="1">Muito Satisfeito</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="satisfeito" data-question="1">Satisfeito</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="neutro" data-question="1">Neutro</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="insatisfeito" data-question="1">Insatisfeito</li> 
+                    </ul>
+                </div>
+                <div class="question">
+                    <p>2. Quão pontual o trabalhador foi no cumprimento dos prazos acordados?</p>
+                    <ul>
+                        <li> <button class="answer-button" type="button" name="resposta" value="sp" data-question="2">Sempre Pontual</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="gp" data-question="2">Geralmente pontual</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="avp" data-question="2">Às Vezes Pontual</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="rp" data-question="2">Raramente Pontual</li> 
+                    </ul>
+                </div>
+                <div class="question">
+                    <p>3. O trabalhador demonstrou profissionalismo durante o trabalho?</p>
+                    <ul>
+                        <li> <button class="answer-button" type="button" name="resposta" value="ap" data-question="3">Altamente Profissional</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="profi" data-question="3">Profissional</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="ump" data-question="3">Um Pouco Profissional</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="pp" data-question="3">Pouco Profissional</li> 
+                    </ul>
+                </div>
+                <div class="question">
+                    <p>4. O trabalhador demonstrou habilidades técnicas necessárias para o trabalho?</p>
+                    <ul>
+                        <li> <button class="answer-button" type="button" name="resposta" value="ms" data-question="4">Muito Satisfeito</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="satisfeito" data-question="4">Satisfeito</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="neutro" data-question="4">Neutro</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="insatisfeito" data-question="4">Insatisfeito</li> 
+                    </ul>
+                </div>
+                <div class="question">
+                    <p>5. Você recomendaria os serviços deste trabalhador a outras pessoas?</p>
+                    <ul>
+                        <li> <button class="answer-button" type="button" name="resposta" value="dr" data-question="5">Definitivamente Recomendaria</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="pr" data-question="5">Provavelmente Recomendaria</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="tr" data-question="5">Talvez Recomendaria</li> 
+                        <li> <button class="answer-button" type="button" name="resposta" value="nr" data-question="5">Não Recomendaria</li> 
+                    </ul>
+                </div>
+                <div class="question">
+                <p>Comentário Geral:</p>
+                <textarea name="comentario" rows="4" cols="50"></textarea>
+            </div>
+            <div class="button-container">
+                <a href="anexar-imagem.html" class="button-center">Enviar Avaliação</a>
+                <button type="button" class="cancel-button">Cancelar</button>
+            </div>
+            </form>
+        </div>  
+        <script src="script.js"></script>
+    </body>
+</html>

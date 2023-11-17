@@ -1,0 +1,65 @@
+/* Estilos de Tipografia */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Cores */
+#navbar {
+    background: #5271FF;
+    color: #F0F3FF;
+}
+
+#body {
+    background: #E3E7FF;
+    color: #00367D;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#background {
+    background: #F0F3FF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz com que o corpo da página ocupe pelo menos toda a altura da tela */
+}
+
+#footer {
+    background: #00367D;
+    color: #F0F3FF;
+    padding: 10px;
+    margin-top: auto; /* Faz com que o footer fique no final da página */
+}
+
+#button {
+    background: #5271FF;
+    color: #F0F3FF;
+}
+
+#button:hover {
+    background: #3E5BDB;
+    color: #E3E7FF;
+}
+
+#button-confirm {
+    background: #1DC1A4;
+    color: #E3E7FF;
+}
+
+#button-confirm:hover {
+    background: #1DB6C1;
+    color: #F0F3FF;
+}
+
+#button-negate {
+    background: #FF577F;
+    color: #E3E7FF;
+}
+
+#button-negate:hover {
+    background: #FD346F;
+    color: #F0F3FF;
+}

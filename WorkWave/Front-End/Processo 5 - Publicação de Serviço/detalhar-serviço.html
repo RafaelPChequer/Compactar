@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Processo 5 - Detalhar Serviço</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="body" id="background">
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="WorkWave Logo.png" alt="Logo da Workwave" width="75" height="75" class="d-inline-block align-text-top">
+    </a>
+    <a href="detalhar-serviço.html" style="color: #F0F3FF">Publicar Serviços</a>
+  </div>
+</nav>
+<div class="container mt-5" id="body">
+  <!-- Conteúdo da tela de detalhamento do serviço -->
+  <h1>Detalhar Serviço</h1>
+  <!-- Formulário de detalhamento do serviço -->
+  <form>
+    <!-- Campos de entrada de dados -->
+    <!-- Campos de entrada de dados -->
+    <div class="form-group">
+      <label for="area">Área</label>
+      <select class="form-control" id="area">
+        <option value="default">-- Selecionar Área --</option>
+        <option value="tecnologia">Tecnologia</option>
+        <option value="saude">Saúde</option>
+        <option value="educacao">Educação</option>
+        <option value="negocios">Negócios</option>
+        <option value="engenharia">Engenharia</option>
+        <option value="marketing">Marketing</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="especificacao">Especificação</label>
+      <select class="form-control" id="especificacao">
+        <option value="default">-- Selecionar Especificação --</option>
+        <option value="desenvolvimento-web">Desenvolvimento Web</option>
+        <option value="engenharia-de-software">Engenharia de Software</option>
+        <option value="design-grafico">Design Gráfico</option>
+        <option value="enfermagem">Enfermagem</option>
+        <option value="marketing-digital">Marketing Digital</option>
+        <option value="contabilidade">Contabilidade</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="metodo-trabalho">Método de Trabalho</label>
+      <select class="form-control" id="metodo-trabalho">
+        <option value="presencial">Presencial</option>
+        <option value="remoto">Remoto</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="carga-horaria">Carga Horária</label>
+      <input type="text" class="form-control" id="carga-horaria">
+    </div>
+    <div class="form-group">
+      <label for="descricao">Descrição</label>
+      <textarea class="form-control" id="descricao" rows="3">Descreva seu serviço aqui...</textarea>
+    </div>
+  </form>
+  <!-- Botões "Próximo" e "Cancelar" -->
+  <a href="adicionar-fotos.html" class="btn" id="button-confirm">Próximo</a>
+  <a href="index.html" class="btn" id="button-negate">Cancelar</a>
+</div>
+<footer class="footer text-center" id="footer">
+  <div class="container">
+    <p>Conteúdo do rodapé aqui &copy; 2023 Workwave</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

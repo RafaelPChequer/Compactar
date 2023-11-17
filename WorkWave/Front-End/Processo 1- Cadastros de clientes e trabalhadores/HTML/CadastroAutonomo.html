@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Trabalhador Autônomo</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Cadastro.css">
+</head>
+<body>
+    <header>
+        <a id="voltar" href="Seletor.html">Voltar</a>
+        <h1>Cadastro de Trabalhador Autônomo</h1>
+    </header>
+
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+
+        <label for="skills">Habilidades:</label>
+        <input id="skills" name="skills" rows="4" required></input>
+
+        <label for="experiences">Experiências:</label>
+        <input id="experiences" name="experiences" rows="4" required></input>
+
+        <label for="portfolio">Portfólio (Link):</label>
+        <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com" required>
+
+        <!-- Adicione mais campos conforme necessário -->
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    <footer>
+        <p>© 2023 Workwave. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,141 @@
+/* Coluna Esquerda (Caixa de Filtros) */
+#buscar-servicos {
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+    width: 30%; /* Define a largura da coluna esquerda */
+    margin-right: 2%; /* Espaço entre as colunas */
+}
+
+/* Coluna Direita (Visualizar Perfis) */
+#visualizar-perfis {
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+    width: 68%; /* Define a largura da coluna direita */
+}
+/* Cores */
+:root {
+    --primary-color: #5271FF;
+    --button-hover-color: #3E5BDB;
+    --background-light-color: #F0F3FF;
+    --text-background-dark-color: #E3E7FF;
+    --footer-text-color: #00367D;
+    --confirmation-color: #1dc1a4;
+    --confirmation-hover-color: #1DB6C1;
+    --denial-color: #FF577F;
+    --denial-hover-color: #FD346F; 
+
+}
+
+/* Estilos Gerais */
+
+main{
+    flex:1;
+    background-color: var(--background-light-color);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--background-light-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Caixa de Filtros */
+#buscar-servicos {
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+    width: 30%; /* Define a largura da coluna esquerda */
+    margin-right: 2%; /* Espaço entre as colunas */
+}
+
+/* Formulário de Busca */
+#search-form {
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Botão de Busca */
+#search-form button {
+    background-color: var(--confirmation-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: var(--confirmation-hover-color);
+}
+
+/* Selecionar Categoria */
+#categoria {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Título de Filtro */
+.titulo-filter {
+    color: var(--footer-text-color);
+}
+
+/* Largura Responsiva */
+@media (max-width: 768px) {
+    #buscar-servicos {
+        width: 100%; /* Ocupa toda a largura em dispositivos menores */
+        margin-right: 0; /* Sem espaço entre as colunas em dispositivos menores */
+    }
+}
+
+footer {
+    background-color: var(--footer-text-color);
+    padding: 10px;
+    text-align: center;
+    
+}
+.footertitle{
+    color: var(--text-background-dark-color);
+}
+
+header{
+    background-color: var(--background-light-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--text-background-dark-color);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--text-background-dark-color);
+}
+

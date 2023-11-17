@@ -1,0 +1,157 @@
+/* Cores */
+:root {
+    --primary-color: #5271FF;
+    --button-hover-color: #3E5BDB;
+    --background-light-color: #F0F3FF;
+    --text-background-dark-color: #E3E7FF;
+    --footer-text-color: #00367D;
+    --confirmation-color: #1dc1a4;
+    --confirmation-hover-color: #1DB6C1;
+    --denial-color: #FF577F;
+    --denial-hover-color: #FD346F; 
+}
+
+/* Estilos Gerais */
+
+main {
+    flex: 1;
+    background-color: var(--background-light-color);
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--background-light-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--footer-text-color);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--text-background-dark-color);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--text-background-dark-color);
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    color: var(--footer-text-color);
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seção de Seleção de Serviço */
+#selecao-servico {
+    background-color: var(--background-light-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Título da Seção de Agendamento */
+#agendamento h2 {
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
+/* Formulário de Agendamento */
+form {
+    background-color: var(--text-background-dark-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Campos de Entrada */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Botão de Agendar */
+form button {
+    background-color: var(--confirmation-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.voltar{
+    background-color: var(--denial-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.voltar:hover{
+    background-color: var(--denial-hover-color);
+}
+
+form button:hover {
+    background-color: var(--confirmation-hover-color);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--footer-text-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Logo */
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.footertitle{
+    color: var(--text-background-dark-color);
+}

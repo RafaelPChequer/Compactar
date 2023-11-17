@@ -1,0 +1,123 @@
+/* Estilos de Tipografia */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Cores */
+#navbar {
+    background: #5271FF;
+    color: #F0F3FF;
+}
+
+#body {
+    background: #E3E7FF;
+    color: #00367D;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+#background {
+    background: #F0F3FF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#footer {
+    background: #00367D;
+    color: #F0F3FF;
+    padding: 10px;
+    margin-top: auto;
+}
+
+#button {
+    background: #5271FF;
+    color: #F0F3FF;
+}
+
+#button:hover {
+    background: #3E5BDB;
+    color: #E3E7FF;
+}
+
+#button-confirm {
+    background: #1DC1A4;
+    color: #E3E7FF;
+}
+
+#button-confirm:hover {
+    background: #1DB6C1;
+    color: #F0F3FF;
+}
+
+#button-negate {
+    background: #FF577F;
+    color: #E3E7FF;
+}
+
+#button-negate:hover {
+    background: #FD346F;
+    color: #F0F3FF;
+}
+
+/* Estilos para os cartões de serviço */
+.servicos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servico-container {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(25% - 15px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.servico-container p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.servico-container button {
+    background: #5271FF;
+    color: #F0F3FF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.servico-container button:hover {
+    background: #3E5BDB;
+}
+
+.servico-container button.cancelar {
+    background: #FF577F;
+}
+
+.servico-container button.cancelar:hover {
+    background: #FD346F;
+}
+
+@media screen and (max-width: 600px) {
+    .servico-container {
+        width: 100%;
+    }
+}
+
+
+/* Mídia Query para telas menores (por exemplo, smartphones) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Tamanho de fonte menor para telas menores */
+    }
+}
